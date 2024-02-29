@@ -1,7 +1,7 @@
 import java.util.*;
 
 // 1463. Cherry Pickup II
-class Solution {
+class cherryPickup_ll {
     int[] dy = {0, -1, 1};
     int[][][] memo = new int[71][71][71];
 
