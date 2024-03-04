@@ -7,7 +7,7 @@ class ListNode {
     }
 }
 
-public class Main {
+public class RemoveNthNodeFromEndOfLL {
     public static ListNode removeNthFromEnd(ListNode head, int n) {
         if (head == null || n <= 0) // Handling edge cases
             return null;
@@ -32,7 +32,7 @@ public class Main {
         }
 
         // Remove the nth node from the end
-        ListNode toDelete = slow.next;
+        // ListNode toDelete = slow.next;
         slow.next = slow.next.next;
 
         return dummy.next; // Return the head of the modified list
